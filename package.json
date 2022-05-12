@@ -1,0 +1,17 @@
+{
+  "name": "19-3-bmi-calculator",
+  "version": "1.0.0",
+  "description": "BMI calculator challenge",
+  "main": "bmi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arpad G Bondor",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "console-stamp": "^0.2.10",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}

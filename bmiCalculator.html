@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BMI Calculator</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style media="screen">
+      /* Challenge footer */
+      .attribution { font-size: 11px; text-align: center; margin: 0;}
+      .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+  </head>
+  <body class="text-center">
+    <h1>BMI calculator</h1>
+    <form class="form mt-5 mb-5" action="/bmicalculator" method="post">
+      <label class="label">Weight: </label>
+      <input class="input" type="text" name="weight" placeholder="Weight">
+      <label>(kg)</label>
+      <br>
+      <label>Height: </label>
+      <input class="input" type="text" name="height" placeholder="Height">
+      <label>(cm)</label>
+      <br>
+      <button class="btn btn-primary" type="submit" name="submit">Calculate BMI</button>
+    </form>
+    <footer>
+      <p class="attribution">Coded by <a href="https://harshjhasd.github.io/portfolio/" target="_blank">Harsh Jha</a> in 2020.</p>
+    </footer>
+  </body>
+</html>
